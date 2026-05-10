@@ -1,7 +1,7 @@
 {
   "name": "cinehub-backend",
   "version": "1.0.0",
-  "description": "Simple OTP backend for CineHub using Twilio",
+  "description": "CineHub Backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -13,11 +13,10 @@
     "dotenv": "^16.6.1",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "twilio": "^4.0.0"
-  },
-  "optionalDependencies": {
+    "twilio": "^4.0.0",
     "bcryptjs": "^2.4.3",
-    "mongoose": "^7.5.0"
+    "mongoose": "^7.5.0",
+    "socket.io": "^4.8.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
